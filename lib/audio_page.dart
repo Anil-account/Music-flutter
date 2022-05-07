@@ -70,17 +70,18 @@ class _DetailAudioPageState extends State<DetailAudioPage> {
                     height: screenHieght * 0.1,
                   ),
                   Text(
-                    "Shape of you",
+                    "Hey Listen",
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
-                    "Ed Shreen",
+                    "Flutter Music",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 18,
                       fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 61, 59, 59),
                     ),
                   ),
                   AudioFlie(advancePlayer: advancePlayer, audioPath: '',),
